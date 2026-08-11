@@ -6,6 +6,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #63214e;
+  height: 200px;
 }
 
 ul li {
@@ -26,12 +27,4 @@ ul li a:hover {
 
 body {
   margin: 0;
-}
-
-a {
-  display: block;
-  width: 200px;
-  height: 50px;
-  padding: 10px 20px;
-  line-height: 50px; 
 }
