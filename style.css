@@ -47,11 +47,12 @@ h2 {
 }
 
 .circle-crop {
-  width: 300px;          /* Must be equal to height */
-  height: 300px;         /* Must be equal to width */
-  border-radius: 50%;    /* Turns the square into a circle */
-  object-fit: cover;     /* Crops and centers the image without stretching it */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
 
 .intro-section {
     background-color: #cc99ba;
