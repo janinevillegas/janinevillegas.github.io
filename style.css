@@ -62,11 +62,15 @@ h2 {
     padding: 100px;
 }
 
-.intro-section h1 {
+.intro-text {
+    text-align: center;
+}
+
+.intro-text h1 {
     font: 36px Georgia, sans-serif;
     color: #611045;
 }
 
-h1, h2 {
-    display: block;
+.intro-text h2 {
+    font: 24px Georgia, sans-serif;
 }
