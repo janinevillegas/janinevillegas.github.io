@@ -6,8 +6,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #63214e;
-  height: 50px;
+  height: 75px;
   width: 100%;
+  font-family: Georgia, sans-serif;
+  font-size: 24px;
+  text-align: center;
 }
 
 ul li {
