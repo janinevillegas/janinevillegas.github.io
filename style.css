@@ -96,12 +96,20 @@ p {
 }
 
 .flex-container {
-  display: flex;         /* Activates Flexbox layout */
-  gap: 20px;             /* Spacing between columns */
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 .flex-col {
-  flex: 1;               /* Forces all columns to take up equal width */
+    flex: 1;
+    text-align: center;
+}
+
+.flex-col p {
+    text-align: center;
 }
 
 /* Optional: Stacks columns vertically on mobile screens */
