@@ -37,14 +37,27 @@ body {
 
 h1 {
     text-align: center;
-    font: 36px Georgia, sans-serif;
+    font: 56px Georgia, sans-serif;
     color: #611045;
 }
 
 h2 {
     text-align: center;
-    font: 24px Georgia, sans-serif;
+    font: 36px Georgia, sans-serif;
 }
+
+h3 {
+    text-align: center;
+    font: 28px Georgia, sans-serif;
+    color: #611045;
+}
+
+p {
+  font: 24px Georgia, sans-serif;
+  color: black;
+  text-align: left;
+}
+
 
 .circle-crop {
     width: 500px;
@@ -53,7 +66,7 @@ h2 {
     object-fit: cover;
 }
 
-
+/* Intro Section */
 .intro-section {
     background-color: #cc99ba;
     display: flex;
@@ -67,21 +80,40 @@ h2 {
 }
 
 .intro-text h1 {
-    font: 48px Georgia, sans-serif;
+    font: 56px Georgia, sans-serif;
     color: #611045;
 }
 
 .intro-text h2 {
-    font: 24px Georgia, sans-serif;
-    color: #2c031e;
+    font: 36px Georgia, sans-serif;
+    color: #451836;
 }
 
 .intro-text p {
-  font: 12px Georgia, sans-serif;
+  font: 24px Georgia, sans-serif;
   color: black;
   text-align: left;
 }
 
+.flex-container {
+  display: flex;         /* Activates Flexbox layout */
+  gap: 20px;             /* Spacing between columns */
+}
+
+.flex-col {
+  flex: 1;               /* Forces all columns to take up equal width */
+}
+
+/* Optional: Stacks columns vertically on mobile screens */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+
+/* Footer Section*/
 footer {
   background-color: #63214e;
   color: #e6c8dc;
