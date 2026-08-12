@@ -149,8 +149,8 @@ p {
 }
 
 .side-by-side-container img {
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 1000px;
 }
 
 
