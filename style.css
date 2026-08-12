@@ -126,20 +126,31 @@ p {
 }
 
 .side-by-side-container {
-  display: flex;       /* Activates flexbox layout */
-  align-items: center; /* Vertically centers the text and image */
-  gap: 20px;          /* Adds clean spacing between the text and image */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 40px;
 }
 
-/* Optional: control the size of the elements */
+.side-by-side-container .text {
+    flex: 1;
+}
+
+.side-by-side-container h3,
+.side-by-side-container h4 {
+    text-align: left;
+}
+
 .side-by-side-container p {
-  text-align: left;    /* Aligns the text to the left */
-  flex: 1;             /* Allows the paragraph to take up available space */
+    text-align: left;
+    flex: 1;
 }
 
 .side-by-side-container img {
-  max-width: 300px;    /* Prevents the image from getting too large */
-  height: auto;
+    width: 300px;
+    height: auto;
 }
 
 
