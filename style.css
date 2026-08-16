@@ -217,3 +217,18 @@ footer {
 .footer-container img:hover {
   transform: scale(1.1); 
 }
+
+button {
+    background-color: #63214e; 
+    color: #e6c8dc;              
+    padding: 10px 20px;        
+    border: none;              
+    border-radius: 5px;        
+    cursor: pointer;     
+    height: 50px;
+    font: 24px Georgia;
+}
+
+button:hover {
+    background-color: #915a80; 
+}
